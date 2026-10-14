@@ -1,0 +1,13 @@
+{% assign labels = site.data[site.active_lang].strings %}
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    © {{ site.time | date: '%Y' }} Charlotte Giraud · {{ labels.footer -}}
+    <br>
+    <span>
+      {{- labels.built }}
+      <a href="https://github.com/alshedivat/al-folio">al-folio</a> ·
+      <a href="https://github.com/george-gca/multi-language-al-folio">multilingual al-folio</a></span
+    >
+  </div>
+</footer>
+<script src="/assets/js/charlotte.js" defer></script>

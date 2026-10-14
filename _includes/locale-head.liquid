@@ -1,0 +1,21 @@
+<link
+  rel="alternate"
+  hreflang="fr"
+  {% static_href %}
+  href="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}"
+  {% endstatic_href %}
+>
+<link
+  rel="alternate"
+  hreflang="en"
+  {% static_href %}
+  href="{{ site.url }}{{ site.baseurl }}/en{{ page.url | remove: 'index.html' }}"
+  {% endstatic_href %}
+>
+<link
+  rel="alternate"
+  hreflang="x-default"
+  {% static_href %}
+  href="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}"
+  {% endstatic_href %}
+>

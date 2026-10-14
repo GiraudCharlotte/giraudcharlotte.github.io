@@ -1,0 +1,46 @@
+skip: Skip to content
+navigation: Main navigation
+menu: Open menu
+theme: Change colour theme
+language: Lire cette page en français
+email: Email Charlotte Giraud
+github: Charlotte Giraud’s GitHub profile
+role: Certified secondary-school teacher · Historian
+fields: Economic and social history · Gender · Material culture
+footer: Academic website
+built: Built with
+download: Download the French CV
+source: LaTeX source
+cv_note: Academic curriculum vitae in French — PDF, 2 pages.
+program: Conference programme (PDF)
+event_link: Conference website
+upcoming: Upcoming
+past: Recent presentations
+invited: Invited contribution — panel under review
+contribution: Presentation
+coauthor: With Patrice Baubeau
+not_found: Page not found
+not_found_text: The requested page does not exist. Explore the sections in the menu.
+home: Return to the home page
+nav:
+  - id: about
+    label: About
+    url: /
+  - id: research
+    label: Research
+    url: /recherche/
+  - id: teaching
+    label: Teaching
+    url: /enseignement/
+  - id: background
+    label: Background
+    url: /parcours/
+  - id: publications
+    label: Publications
+    url: /publications/
+  - id: conferences
+    label: Conferences
+    url: /conferences/
+  - id: cv
+    label: CV
+    url: /cv/

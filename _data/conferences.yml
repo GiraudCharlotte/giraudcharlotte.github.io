@@ -1,0 +1,56 @@
+- group: upcoming
+  id: esshc
+  title: European Social Science History Conference (ESSHC)
+  place:
+    fr: Lyon, France
+    en: Lyon, France
+  date:
+    fr: 21–24 avril 2027
+    en: 21–24 April 2027
+  talk: "Women as clients and creditors: financial networks and gender dynamics at
+    the Mont-de-Piété de Paris, 19th Century"
+  url: https://esshc.socialhistory.org/conference/programme?day=121&time=390&rnd=7451
+- group: upcoming
+  id: wehc
+  title: 21st World Economic History Congress (WEHC)
+  place:
+    fr: Montevideo, Uruguay
+    en: Montevideo, Uruguay
+  date:
+    fr: 24–28 juillet 2028
+    en: 24–28 July 2028
+  talk: "Secret Pawning and Financial Help: Reputation, Gender, and Social Protection
+    at the Mont-de-Piété of Paris, 1866–1877"
+  panel: Financial Help in Hard Times. Credit, Assistance, and Social Protection in
+    Historical Perspective (Late Medieval–Twentieth Century)
+  panel_group: Group B · Monti di Pietà and Charitable Credit Institutions (16th–19th
+    c.)
+  under_review: true
+  url: https://wehcmontevideo2028.org/
+- group: past
+  id: milan
+  title: "Invisible Finance: Women and Money in History (Middle Ages to the 20th Century)"
+  place:
+    fr: Milan, Italie
+    en: Milan, Italy
+  date:
+    fr: 11–12 septembre 2026
+    en: 11–12 September 2026
+  talk: "Pawns, Pearls, and Power: Gendered Credit Practices at the Mont-de-Piété
+    de Paris, 1866–1877"
+  url: https://demm.unimi.it/index.php/en/events/invisible-finance-women-and-money-history
+  pdf: Invisible_Finance_2026.pdf
+- group: past
+  id: lorient
+  title: Le genre et l’argent, le genre de l’argent et l’argent du genre
+  place:
+    fr: Lorient, France
+    en: Lorient, France
+  date:
+    fr: 12–13 mars 2026
+    en: 12–13 March 2026
+  talk: "Mobiliser ses possessions : minoration juridique et agentivité monétaire
+    des femmes en France dans la deuxième moitié du XIXe siècle"
+  coauthor: true
+  url: https://www.univ-brest.fr/hcti/fr/actualite/le-genre-et-largent-le-genre-de-largent-et-largent-du-genre
+  pdf: colloque_genre_et_argent.pdf

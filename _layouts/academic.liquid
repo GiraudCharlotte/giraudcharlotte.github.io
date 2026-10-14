@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign labels = site.data[site.active_lang].strings %}
+<div class="post academic-page">
+  <header class="post-header {% if page.portrait %}profile-header{% endif %}">
+    <div>
+      {% if page.portrait %}
+        <p class="eyebrow">{{ labels.role }}</p>
+        <h1 class="post-title">Charlotte <strong>Giraud</strong></h1>
+        <p class="profile-fields">{{ labels.fields }}</p>
+      {% else %}
+        <p class="eyebrow">Charlotte Giraud</p>
+        <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %}
+    </div>
+    {% if page.portrait %}
+      <img
+        class="portrait"
+        src="/assets/img/photo.jpg"
+        alt="{% if site.active_lang == 'fr' %}Portrait de Charlotte Giraud{% else %}Portrait of Charlotte Giraud{% endif %}"
+        width="220"
+        height="220"
+        fetchpriority="high"
+      >
+    {% endif %}
+  </header>
+  <article class="academic-content">{{ content }}</article>
+</div>

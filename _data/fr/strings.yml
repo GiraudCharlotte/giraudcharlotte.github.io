@@ -1,0 +1,46 @@
+skip: Aller au contenu
+navigation: Navigation principale
+menu: Ouvrir le menu
+theme: Changer le thème
+language: Read this page in English
+email: Écrire à Charlotte Giraud
+github: Profil GitHub de Charlotte Giraud
+role: Enseignante certifiée · Historienne
+fields: Histoire économique et sociale · Genre · Cultures matérielles
+footer: Site académique
+built: Réalisé avec
+download: Télécharger le CV en français
+source: Source LaTeX
+cv_note: Curriculum vitae académique en français — PDF, 2 pages.
+program: Programme du colloque (PDF)
+event_link: Site de la conférence
+upcoming: À venir
+past: Communications récentes
+invited: Contribution invitée — panel en cours d’évaluation
+contribution: Communication
+coauthor: Avec Patrice Baubeau
+not_found: Page introuvable
+not_found_text: La page demandée n’existe pas. Retrouvez les rubriques dans le menu.
+home: Revenir à la présentation
+nav:
+  - id: about
+    label: Présentation
+    url: /
+  - id: research
+    label: Recherche
+    url: /recherche/
+  - id: teaching
+    label: Enseignement
+    url: /enseignement/
+  - id: background
+    label: Parcours
+    url: /parcours/
+  - id: publications
+    label: Publications
+    url: /publications/
+  - id: conferences
+    label: Conférences
+    url: /conferences/
+  - id: cv
+    label: CV
+    url: /cv/

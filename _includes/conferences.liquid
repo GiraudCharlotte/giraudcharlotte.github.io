@@ -1,0 +1,38 @@
+<div class="conference-list">
+  {% assign labels = site.data[site.active_lang].strings %}
+  {% assign groups = 'upcoming,past' | split: ',' %}
+  {% for group in groups %}
+    <h2>{{ labels[group] }}</h2>
+    {% for event in site.data.conferences %}
+      {% if event.group == group %}
+        <section class="conference-card" aria-labelledby="{{ event.id }}">
+          <p class="conference-meta">{{ event.date[site.active_lang] }} · {{ event.place[site.active_lang] }}</p>
+          <h3 id="{{ event.id }}">{{ event.title }}</h3>
+          {% if event.under_review %}
+            <p class="status-note">{{ labels.invited }}</p>
+          {% endif %}
+          <p>
+            {{ labels.contribution }} : <em>{{ event.talk }}</em>
+            {%- if event.coauthor -%}
+              <br>
+              {{ labels.coauthor -}}
+            {%- endif %}
+          </p>
+          {% if event.panel %}
+            <p>
+              {{ event.panel -}}
+              <br>
+              <small>{{ event.panel_group }}</small>
+            </p>
+          {% endif %}
+          <p class="conference-links">
+            <a href="{{ event.url }}">{{ labels.event_link }}</a>
+            {% if event.pdf -%}
+              <a href="/assets/pdf/{{ event.pdf }}">{{ labels.program }}</a>
+            {%- endif %}
+          </p>
+        </section>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
