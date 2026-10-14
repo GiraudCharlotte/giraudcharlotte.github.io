@@ -12,7 +12,7 @@ Les titres de publications restent dans leur langue originale. Le mémoire de ma
 
 ## Mettre à jour les documents
 
-Le CV éditable est `cv/CV_Charlotte_Giraud.tex`. Compiler avec `latexmk -pdf CV_Charlotte_Giraud.tex`, vérifier chaque page, puis remplacer `assets/pdf/CV_Charlotte_Giraud.pdf` et `assets/tex/CV_Charlotte_Giraud.tex`. Si la pagination change, mettre à jour le nombre de pages dans les deux fichiers `strings.yml`.
+Le CV éditable est `cv-source/CV_Charlotte_Giraud.tex`. Compiler avec `latexmk -pdf CV_Charlotte_Giraud.tex`, vérifier chaque page, puis remplacer `assets/pdf/CV_Charlotte_Giraud.pdf` et `assets/tex/CV_Charlotte_Giraud.tex`. Si la pagination change, mettre à jour le nombre de pages dans les deux fichiers `strings.yml`.
 
 Les programmes de Milan et Lorient sont dans `assets/pdf/`. La photo originale est dans `assets/img/photo.jpg` ; son affichage circulaire est défini en CSS. Tous les documents sont partagés entre les deux langues.
 

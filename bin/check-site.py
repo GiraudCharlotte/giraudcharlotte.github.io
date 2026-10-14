@@ -28,6 +28,9 @@ for language in ['fr', 'en']:
         assert sum(tag == 'h1' for tag, _ in parsed.tags) == 1, path
         current = [attrs for tag, attrs in parsed.tags if attrs.get('aria-current') == 'page']
         assert len(current) == 1, (path, current)
+        expected_nav = {('/en/' if language == 'en' else '/') + (r + '/' if r else '') for r in routes}
+        actual_nav = {attrs.get('href') for tag, attrs in parsed.tags if tag == 'a' and attrs.get('href') in expected_nav}
+        assert actual_nav == expected_nav, (path, 'navigation language', expected_nav - actual_nav)
         switch = next(attrs for tag, attrs in parsed.tags if 'language-switch' in attrs.get('class', ''))
         expected = ('/en/' if language == 'fr' else '/') + (route + '/' if route else '')
         assert switch['href'] == expected, (path, switch, expected)
